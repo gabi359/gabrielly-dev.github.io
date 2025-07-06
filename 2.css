@@ -1,0 +1,45 @@
+/*
+----- limpar formataçoes-------
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#pag {
+    
+    background-color: bisque;
+    color: rgb(172, 115, 92);
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header {
+    background-color: bisque;
+    color: rgb(172, 115, 92);
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     display: flex;
+    gap: 500px;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+#content {
+    background-color: beige;
+    width: 600px;
+    height: 600px;
+    margin-left: 860px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    font-size: large;
+    font-family: unset;
+}
